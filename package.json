@@ -1,6 +1,6 @@
 {
   "name": "delight",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -52,7 +52,7 @@
     "webpack-dev-server": "^3.1.5"
   },
   "bin": {
-    "majestic": "./dist/server/cli/index.js"
+    "delight": "./dist/server/cli/index.js"
   },
   "files": [
     "/dist/**",
