@@ -1,6 +1,6 @@
 {
-  "name": "delight",
-  "version": "0.3.1",
+  "name": "festive",
+  "version": "0.2.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -20,6 +20,7 @@
     "awesome-typescript-loader": "^5.2.0",
     "express": "^4.17.1",
     "html-webpack-plugin": "^3.2.0",
+    "nanoid": "^3.1.6",
     "react": "^16.13.1",
     "react-reconciler": "^0.25.1",
     "ws": "^7.2.5",
@@ -36,7 +37,6 @@
     "@types/ws": "^7.2.4",
     "emotion-theming": "^10.0.27",
     "html-webpack-template": "^6.2.0",
-    "nanoid": "^3.1.6",
     "nodemon": "^1.18.3",
     "react-dom": "^16.13.1",
     "react-emotion": "^9.2.6",
@@ -48,7 +48,7 @@
     "webpack-dev-server": "^3.1.5"
   },
   "bin": {
-    "delight": "./dist/server/cli/index.js"
+    "festive": "./dist/server/cli/index.js"
   },
   "files": [
     "/dist/**",
